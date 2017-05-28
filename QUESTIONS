@@ -1,0 +1,11 @@
+01. Should the LSI be based on the 20-News-Dataset? If not, what
+    should we use?
+
+02. 150k unique terms? The U matrix itself is quite large ...
+    Perhaps we should exclude terms with small document frequencies
+    e.g. df of 1 ...
+
+03. Can we use nltk.stem to stem the terms?
+    (stem.("oed") fails, add the length check in porter.py)
+
+ 
